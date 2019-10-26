@@ -1,0 +1,41 @@
+{
+    "title": "Fly to Ireland with less than £700 round trip plus more!",
+    "dealofTheDay": {
+        "location": "Ireland",
+        "description": "10  days with air, hotel and car rental. Use promo code IREL100 to save. Price reflects IREL departure, other cities available.",
+        "saveAmount": "save £100 with code",
+        "tinyInfo": "Gate 1 Travel",
+        "price": "£649",
+        "link": "#",
+        "image": "https://i.imgur.com/zWlaoiF.png"
+    },
+    "offers": [
+        {
+            "location": "Dubai",
+            "description": "Spend 5 nights of your vacation days in Abu Dhabi . Price reflects MIA departure, other cities available.",
+            "saveAmount": "save up to 65%",
+            "tinyInfo": "Truthair.com",
+            "price": "£659",
+            "link": "#",
+            "image": "https://i.imgur.com/LM3JZ8t.png"
+        },
+        {
+            "location": "China",
+            "description": "Spend 8 nights in the heart of Beijing",
+            "saveAmount": "save up to 40%",
+            "tinyInfo": "Truthair.com",
+            "price": "£850",
+            "link": "#",
+            "image": "https://i.imgur.com/s0uTKix.jpg"
+        },
+        {
+            "location": "London",
+            "description": "Visit the castles of centuries, Harrods of London & more",
+            "saveAmount": "save up to 50%",
+            "tinyInfo": "Truthair.com",
+            "price": "£700",
+            "link": "#",
+            "image": "https://i.imgur.com/kev3REg.png"
+        }
+    ]
+}

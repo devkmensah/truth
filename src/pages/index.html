@@ -1,0 +1,71 @@
+---
+layout: truth
+subject: Great Deals Today
+---
+
+
+<container>
+    <row class="deal_of_day"> 
+        <columns>
+            <h2>Deal Of the Moment</h2>
+            <img src="{{truthEmail.dealofTheDay.image}}" alt="">
+            <p>
+                {{truthEmail.dealofTheDay.location}}:
+                {{truthEmail.dealofTheDay.description}}
+            </p>
+            <span class="save_amount"> {{truthEmail.dealofTheDay.saveAmount}}</span>
+            <span class="tiny_info"> {{truthEmail.dealofTheDay.tinyInfo}}</span>
+            <span class="price"> {{truthEmail.dealofTheDay.price}} </span>
+            <center>
+                <a href="{{truthEmail.dealofTheDay.link}}" class="button">View Deal</a>
+            </center>
+
+        </columns>
+    </row>
+</container>
+
+<container>
+    <row class="content-area">
+        <columns class="first-offer">
+            {{#each truthEmail.offers}}
+            <row class="offer">
+                <columns>
+                    <img src="{{this.image}}" alt="">
+                    <p>{{this.location}}: {{this.description}}
+                    </p>
+                    <span class="save_amount"> {{this.saveAmount}}</span>
+                    <span class="tiny_info"> {{this.tinyInfo}}</span>
+                    <span class="price">{{this.price}}+</span>
+                    <a href="{{this.link}}" class="button">View Deal</a>
+                </columns>
+            </row>
+            {{/each}}
+        </columns>
+    </row>
+</container>
+<container>
+    <row class="content-area">
+        <columns>
+            <row class="offer last-offer">
+                <columns>
+
+                    <row>
+                        <columns>
+                            <img src="https://i.imgur.com/NLN0Jen.png" alt="" class="group-icons">
+                        </columns>
+                    </row>
+                    <h4>
+                        Still Searching? There's more
+                    </h4>
+                    <p>
+                        search hundreds of deals to suit your budget on flights, packages, cruises and more
+                    </p>
+
+                    <a href="#" class="button">View All Deals</a>
+
+
+                </columns>
+            </row>
+        </columns>
+    </row>
+</container>
